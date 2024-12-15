@@ -1,0 +1,211 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "inconsolota"monospace;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f7f5f1;
+}
+header{
+    width: 100%;
+    border: 2px solid black;
+    background-color: black;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: 0.5s ease;
+}
+a:hover{
+    background-color: lightgray;
+    color: black;
+}
+.image1{
+    border: 2px solid black;
+    height: 600px;
+    width: 100%;
+    background-image: url(https://www.w3schools.com/w3images/coffeehouse.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.p1{
+    align-self: flex-end;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    width: fit-content;
+}
+.p2{
+    align-self: center;
+    font-size: 3rem;
+    color: white;
+}
+.p3{
+    align-self: flex-end;
+    color: white;
+}
+.about-the-cafe{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    margin-left: 50%;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.paragraph{
+    height: 300px;
+    width: 600px;
+    text-align: justify;
+    font-size: 20px;
+    /* border: 1px solid white; */
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    margin-left: 35%;
+}
+.p7{
+    border-left: 4px solid;
+    background-color: azure;
+}
+
+.image2{
+    margin-top: 20px;
+    margin-left: 35%;
+}
+.opening-hours{
+    margin-left: 35%;
+    font-size: 20px;
+}
+.adress{
+    margin-left: 35%;
+    font-size: 20px;
+}
+.the-menu{
+    border: 1px solid;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    margin-left: 50%;
+    font-size: 20px;
+}
+.eat{
+    width: 600px;
+    font-size: 20px;
+    border: 2px solid white;
+    margin-left: 35%;
+}
+.menu{
+   text-align: center;
+   border: 1px solid;
+   background-color: black;
+   color: white;
+}
+.image3{
+    margin-left: 35%;
+}
+.whare{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    margin-left: 50%;
+    font-size: 1.5rem;
+}
+.p8{
+    margin-left: 35%;
+    font-size: 20px;
+}
+.paragraph1{
+    width: 600px;
+    font-size: 20px;
+    margin-left: 35%;
+    display: flex;
+    flex-direction: row;
+}
+.p9{
+justify-content: flex-start;
+border: 1px solid;
+background-color: black;
+color: white;
+width: fit-content;
+}
+.p10{
+    font-size: 20px;
+    margin-left: 35%;
+}
+.image4{
+    margin-left: 35%;
+}
+
+image{
+    width: 100%;
+}
+span{
+    border: 1px solid;
+    background-color: black;
+    color: white;
+    width: fit-content;
+}
+.small{
+    font-size: 20px;
+   width: 600px;
+   margin-left: 35%;
+}
+.form-action{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 100px;
+    margin-left: 35%;
+}
+#form{
+    width: 600px;
+    height: 20px;
+    padding: 30px;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#submit{
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+#submit:hover{
+    background-color: lightgray;
+    color: black;
+}
+footer{
+    height: 200px;
+    background-color: lightgray;
+    color: black;
+    margin-top: 350px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer>p,footer>p>a{
+    color: black;
+    font-size: 20px;
+}
+
